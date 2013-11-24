@@ -1,0 +1,26 @@
+.ficon img {
+max-height: 190px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.colored {
+background-color: #EAEFF2;
+padding: 50px;
+}
+
+.mine {
+color: #fff;
+border-top: 1px solid #fff;
+}
+
+.col-md-7.mapdata {
+margin-top: -200px;
+background-color: #fff;
+background-color: #fff;
+-moz-box-shadow: inset 0 0 7px #DDDDDD;
+-webkit-box-shadow: inset 0 0 7px #DDDDDD;
+box-shadow: inset 0 0 7px #DDDDDD;
+padding: 10px 55px;
+}
