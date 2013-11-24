@@ -28,3 +28,7 @@ padding: 10px 55px;
 .credit{
 	padding-top: 30px;
 }
+
+a.carousel-control {
+    outline: none;
+}
