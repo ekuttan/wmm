@@ -90,6 +90,38 @@ border-top: 1px solid #fff;
 	margin-top: 75px;
 }
 
+#reg{
+	float:right;
+	padding-top:-50px;
+}
+
+#intrstd {
+	text-align:center;
+}
+
+#RdFAQ {
+	margin-left: 200px;
+}
+
+.button {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 5px;
+  font-family: Ubuntu;
+  color: #ffffff;
+  font-size: 32px;
+  background: #d93434;
+  /*padding: 10px 20px 10px 20px;*/
+  text-decoration: none;
+  margin: -50px 150px 40px 0;
+}
+
+.button:hover {
+  background: #fc3c3c;
+  text-shadow: 1px 1px 3px #666;
+  text-decoration: none;
+}
+
 .col-md-5.mapdata {
 margin-top: -200px;
 background-color: #fff;
