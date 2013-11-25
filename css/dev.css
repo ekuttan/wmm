@@ -122,13 +122,43 @@ border-top: 1px solid #fff;
   text-decoration: none;
 }
 
+#Organizers {
+	font-size: 18px;
+  	font-weight: 200;
+  	line-height: 1.4;
+	text-align: center;
+  	margin-top: 20px;
+}
+
+.imgo {
+	margin:30px 5px 0 5px;
+}
+
+.colg {
+	width:200px;
+	height:40px;
+	margin-left: -30px;
+}
+
+.webmkr {
+	width:200px;
+	height:70px;
+}
+
+.moz {
+	width:100px;
+	height:30px;
+	margin-top: 35px;
+}
+
 .col-md-5.mapdata {
-margin-top: -200px;
+margin-top: -300px;
+margin-left: 700px;
 background-color: #fff;
 background-color: #fff;
+box-shadow: inset 0 0 7px #DDDDDD;
 -moz-box-shadow: inset 0 0 7px #DDDDDD;
 -webkit-box-shadow: inset 0 0 7px #DDDDDD;
-box-shadow: inset 0 0 7px #DDDDDD;
 padding: 10px 55px;
 border: 1px solid #E2DDD5;
 }
