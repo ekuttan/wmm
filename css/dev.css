@@ -15,7 +15,7 @@ color: #fff;
 border-top: 1px solid #fff;
 }
 
-.col-md-5.mapdata {
+.col-md-4.mapdata {
 margin-top: -200px;
 background-color: #fff;
 background-color: #fff;
@@ -42,24 +42,25 @@ a.carousel-control {
   z-index:1;
   max-height: 148px;
 overflow: hidden;*/
-.new.visible {
-margin-left: -380px;
+.snav.visible {
+display: inline;
 background: #fff;
-width: 100%;
 margin-top: -52px;
 position: fixed;
 z-index: 1;
-max-height: 148px;
-overflow: hidden;
+max-height: 117px;
+}
+
+.snav{
+	background-color: #fff;
+	display: none;
 }
 
 .col-lg-12.new.visible img {
 padding-left: 240px;
 }
 
-.row.header {
-padding: 33px 0px;
-}
+
 
 .col-lg-9.tumb img {
 padding-left: 17px;
@@ -72,4 +73,39 @@ padding-bottom: 42px;
 #tools {
 padding-top: 14px;
 }
+span {
+color: #999999;
+font-size: 18px;
+padding-left: 10px;
+}
 
+.org{
+	padding-top: 47px;
+}
+
+.MozKFootr {
+width: 5%;
+height: 5%;
+padding-bottom: 7px;
+}
+
+.logo {
+
+margin-bottom: -85px;
+z-index: 1;
+
+}
+
+.col-lg-6.date {
+padding-top: 30px !important;
+text-align: right;
+padding-top: 8px;
+}
+.row.header {
+	padding-top: 10px;
+}
+
+.col-lg-2.slogo img {
+margin-top: 6px;
+max-width: 91%;
+}
