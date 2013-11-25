@@ -15,6 +15,24 @@ color: #fff;
 border-top: 1px solid #fff;
 }
 
+.col-lg-4 {
+	text-align:	center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.col-lg-5 {
+	padding-top: 40px;
+	padding-left: 50px;
+}
+
+#logo {
+	padding-left: 1150px;
+	margin-bottom: -85px;
+	z-index:1;
+	position:fixed;
+}
+
 .col-md-5.mapdata {
 margin-top: -200px;
 background-color: #fff;
