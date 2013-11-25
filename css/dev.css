@@ -127,7 +127,7 @@ border-top: 1px solid #fff;
   	font-weight: 200;
   	line-height: 1.4;
 	text-align: center;
-  	margin-top: 20px;
+  	padding-top: 50px;
 }
 
 .imgo {
@@ -163,8 +163,10 @@ padding: 10px 55px;
 border: 1px solid #E2DDD5;
 }
 
-.credit{
-	padding-top: 30px;
+.MozKFootr {
+	width:5%;
+	height:5%;
+	padding-bottom:7px;
 }
 
 a.carousel-control {
