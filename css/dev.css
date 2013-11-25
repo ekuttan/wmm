@@ -8,6 +8,7 @@ margin-right: auto;
 .colored {
 background-color: #EAEFF2;
 padding: 50px;
+height: 650px;
 }
 
 .mine {
@@ -79,6 +80,14 @@ border-top: 1px solid #fff;
 	margin-left:10px;
 	width:75px;
 	height:100px;
+}
+
+#ymozla{
+	margin-top: 50px;
+}
+
+#fox{
+	margin-top: 75px;
 }
 
 .col-md-5.mapdata {
