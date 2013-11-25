@@ -33,3 +33,43 @@ border: 1px solid #E2DDD5;
 a.carousel-control {
     outline: none;
 }
+
+/*  left: 50%;*/
+/*	background: #fff;
+  width: 1140px;
+  margin-top: -52px;
+  position: fixed;
+  z-index:1;
+  max-height: 148px;
+overflow: hidden;*/
+.new.visible {
+margin-left: -380px;
+background: #fff;
+width: 100%;
+margin-top: -52px;
+position: fixed;
+z-index: 1;
+max-height: 148px;
+overflow: hidden;
+}
+
+.col-lg-12.new.visible img {
+padding-left: 240px;
+}
+
+.row.header {
+padding: 33px 0px;
+}
+
+.col-lg-9.tumb img {
+padding-left: 17px;
+}
+
+.container.tumbs {
+padding-bottom: 42px;
+}
+
+#tools {
+padding-top: 14px;
+}
+

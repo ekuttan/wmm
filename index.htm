@@ -31,11 +31,11 @@
   <body>
     <div class="row header">
       <div class="container">
-        <div class="col-lg-12" >
-        <div class="col-lg-8">
+        <div class="col-lg-12 new" >
+        <div class="col-lg-7 ">
          <img src="img/logo.png" />
          </div>
-        <div class="col-lg-4" style="text-align: center; padding-top: 100px;" >
+        <div class="col-lg-5" style="text-align: center; padding-top: 70px;" >
           <p>want to join? read the <a>instructions</a> before you register.</p>
         <button type="button" class="btn btn-danger">Register Now!</button>
         </div>
@@ -83,18 +83,41 @@
       <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
     </div><!-- /.carousel -->
 
-
+<!-- 
        <div class="container master">
               <div class="col-md-12">
                <img src="img/content.png" />
               </div>
+      </div> -->
+
+  <div class="row">
+    <div class="container tumbs">
+      <div id="tools" class="col-lg-3">         
+        <p class="lead"> technologies and tools <br/> we will cover at <abbr title="WebMaker Malapuram">WMM</abbr></p>
       </div>
+      <div class="col-lg-9 tumb">
+      
+        <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img class="img html5" src="img/tools/html5-logo.png"></a>
+        <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3"><img class="img css3" src="img/tools/css3-logo.png"></a>
+        <a href="https://mozilla.org/en-US/firefox/os/"><img class="img FXOS" src="img/tools/FXOSAppDays-logo.png"></a>
+        <a href="http://foundation.zurb.com/learn/features.html"><img class="img foundation" src="img/tools/foundation-logo.jpg"></a>
+          <a href="http://ml.wikipedia.org"><img class="img wiki" src="img/tools/wikipedia-logo_white.png"></a>       
+        <a href="https://thimble.webmaker.org"><img class="img thimble" src="img/tools/thimble-logo.png"></a>
+        <a href="https://goggles.webmaker.org"><img class="img goggles" src="img/tools/goggles-logo.png"></a>
+        <a href="https://popcorn.webmaker.org"><img class="img pop" src="img/tools/popcorn-logo.png"></a>
+      </div>
+    </div>
+  </div>
+
+
+
+
 
 
 
       <!-- START THE FEATURETTES -->
 
-      <hr class="mine">
+     
       <div class="colored">
       <div class="container master">
       <div class="row featurette">
@@ -210,5 +233,21 @@
            });
        });
    </script>
+   <script type="text/javascript">
+    $(window).scroll(function () { 
+  if ($(window).scrollTop() > 500) {
+    $('.new').addClass('visible');
+    $('.new').animate({
+      top: '0px'
+    });
+    //$(window).unbind('scroll');
+  } 
+  if($(window).scrollTop() < 500) {
+    $('.new').removeClass('visible');
+    $('.new').removeAttr('style'); 
+  }
+});
+   </script>
+
   </body>
 </html>
