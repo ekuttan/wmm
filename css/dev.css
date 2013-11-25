@@ -26,11 +26,59 @@ border-top: 1px solid #fff;
 	padding-left: 50px;
 }
 
+.col-lg-6{
+	text-align:	center;
+	padding-top: 150px;
+}
+
 #logo {
 	padding-left: 1150px;
 	margin-bottom: -85px;
 	z-index:1;
 	position:fixed;
+}
+
+#tools{
+  	font-size: 24px;
+  	font-weight: 200;
+  	line-height: 1.4;
+	text-align: center;
+  	margin-bottom: 100px;
+}
+
+.img{
+	margin:20px 5px 20px 5px;
+}
+
+.wiki{
+	width:100px;
+	height:100px;
+}
+
+.html5, .css3{
+	width:75px;
+	height:100px;
+}
+
+.FXOS{
+	width:90px;
+	height:100px;
+}
+
+.foundation{
+	width:175px;
+	height:100px;
+}
+
+.thimble, .goggles{
+	width:100px;
+	height:100px;
+}
+
+.pop{
+	margin-left:10px;
+	width:75px;
+	height:100px;
 }
 
 .col-md-5.mapdata {
