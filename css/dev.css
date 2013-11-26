@@ -109,3 +109,7 @@ padding-top: 8px;
 margin-top: 6px;
 max-width: 91%;
 }
+
+.btn.btn-danger a {
+color: white;
+}
