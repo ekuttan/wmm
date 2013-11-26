@@ -113,3 +113,7 @@ max-width: 91%;
 .btn.btn-danger a {
 color: white;
 }
+
+.col-md-5 > img {
+    margin-top: -27px;
+}
