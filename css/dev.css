@@ -22,12 +22,12 @@ background-color: #fff;
 -moz-box-shadow: inset 0 0 7px #DDDDDD;
 -webkit-box-shadow: inset 0 0 7px #DDDDDD;
 box-shadow: inset 0 0 7px #DDDDDD;
-padding: 10px 55px;
+padding: 10px 35px;
 border: 1px solid #E2DDD5;
 }
 
 .credit{
-	padding-top: 30px;
+	padding-top: 5px;
 }
 
 a.carousel-control {
